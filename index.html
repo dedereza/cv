@@ -154,15 +154,16 @@
           <form name="formwebsite">
             <div class="mb-3">
               <label for="nama" class="form-label">Nama Lengkap</label>
-              <input type="text" class="form-control" id="namnama" aria-describedby="nama" name="nama">
+              <input type="text" class="form-control" id="nama" aria-describedby="nama" name="nama" required>
+              <p class="help-block"></p>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+              <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required>
             </div>
             <div class="mb-3 text">
               <label for="pesan" class="form-label">pesan</label>
-              <textarea class="form-control" id="pesan" rows="8" name="pesan"></textarea>
+              <textarea class="form-control" id="pesan" rows="8" name="pesan" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-kirim text-center">Kirim</button>
             <button class="btn btn-primary btn-load d-none" type="button" disabled>
@@ -171,15 +172,13 @@
             </button>
           </form><br>
           <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
-            <strong>Berhasil dikirim!</strong> Pesan anda sudah tersimpan 
+            <strong>Berhasil dikirim!</strong> Pesan anda sudah tersimpan
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
 
   <!-- information -->
   <section id="information">
