@@ -139,7 +139,7 @@ header.masthead .masthead-heading {
 }
 
 /* contact */
-#contact , .container {
+#contact .container {
     padding-top: 6rem;
     padding-bottom: 8rem;
 }
@@ -148,7 +148,7 @@ header.masthead .masthead-heading {
 /* information */
 
 #information {
-    padding: 3% 10%;
+    padding: 5% 10%;
     text-align: center;
     background-color: #0f4c75;
 }
