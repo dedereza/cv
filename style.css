@@ -1,0 +1,174 @@
+.navbar {
+    background-color: #27496d;
+}
+
+/* title */
+#title .container {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header {
+    display: block;
+}
+
+header.masthead {
+    padding-top: 17rem;
+    padding-bottom: 17rem;
+    text-align: center;
+    color: #dae1e7;
+    background-image: url("foto.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+header.masthead .masthead-subheading {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+header.masthead .masthead-heading {
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+
+.btn-primary,  .btn-primary:active, .btn-primary:visited {
+    color: #fff;
+    background-color: #27496d;
+    border-color: #27496d;
+}
+
+/* about me */
+
+#about {
+    padding-top: 5%;
+    text-align: center;
+    background-color: #1b262c;
+}
+
+#about .container{
+    padding: 5% 0%;
+}
+
+#about img {
+    width: 400px;
+}
+
+.big-heading {
+    text-align: left;
+    color: #fff;
+}
+
+#about h4 , h5 {
+    text-align: left;
+    text-align: justify;
+    color: #fff;
+}
+
+
+
+/* education */
+
+#education {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.skill-row {
+    width: 70%;
+    margin: 80px auto 200px;
+    text-align: left;
+    text-align: justify;
+}
+
+
+.SD {
+    width: 220px;
+    float: left;
+    margin-right: 30px;
+}
+
+.pondok {
+    width: 220px;
+    float: right;
+    margin-left: 30px;
+}
+
+.kampus {
+    width: 220px;
+    float: left;
+    margin-right: 30px;
+}
+
+/* qoutes */
+
+#quotes {
+    background-color: #3282b8;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.quotes-text {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.quotes-images {
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 5% 10%;
+}
+
+/* contact */
+#contact , .container {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+
+
+/* information */
+
+#information {
+    padding: 3% 10%;
+    text-align: center;
+    background-color: #0f4c75;
+}
+
+#information h5 {
+    color: black;
+}
+#information h4 {
+    padding-left: 7%;
+}
+
+#information ul{
+    list-style-type: none;
+}
+
+#information a {
+    text-decoration: none;
+    color: black;
+}
+
+.social-icon{
+    width: 10%;
+}
